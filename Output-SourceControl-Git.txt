@@ -1,0 +1,29 @@
+﻿Opening repositories:
+C:\Users\Ken\source\repos\Kazino
+Opening repositories:
+C:\Users\Ken\Source\Repos\Kazik
+C:\Users\Ken\source\repos\Kazino
+Opening repositories:
+C:\Users\Ken\Source\Repos\Kazik
+Commit 888ac98e created locally in repository C:\Users\Ken\Source\Repos\Kazik
+Pushing master
+Remote: Permission to Sajgaka/Kazik.git denied to Ilweran.
+Error encountered while pushing to the remote repository: Git failed with a fatal error.
+Git failed with a fatal error.
+unable to access 'https://github.com/Sajgaka/Kazik.git/': The requested URL returned error: 403
+
+Failed to push to the remote repository. See the Output window for more details.
+Pushing master
+Remote: Permission to Sajgaka/Kazik.git denied to Ilweran.
+Error encountered while pushing to the remote repository: Git failed with a fatal error.
+Git failed with a fatal error.
+unable to access 'https://github.com/Sajgaka/Kazik.git/': The requested URL returned error: 403
+
+Failed to push to the remote repository. See the Output window for more details.
+Pushing master
+Remote: Permission to Sajgaka/Kazik.git denied to Ilweran.
+Error encountered while pushing to the remote repository: Git failed with a fatal error.
+Git failed with a fatal error.
+unable to access 'https://github.com/Sajgaka/Kazik.git/': The requested URL returned error: 403
+
+Failed to push to the remote repository. See the Output window for more details.

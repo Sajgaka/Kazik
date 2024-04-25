@@ -31,6 +31,7 @@ namespace Kazik
             Slots frm2 = new Slots();
             frm2.Show();
             this.Hide();
+           
         }
     }
            
