@@ -93,13 +93,7 @@
     <None Include="Resources\Kazaz.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Kazik.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Play.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Slots.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Slots2.jpg" />
