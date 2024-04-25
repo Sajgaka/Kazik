@@ -36,9 +36,9 @@
             this.imageListLeftSlot = new System.Windows.Forms.ImageList(this.components);
             this.imageListMiddleSlot = new System.Windows.Forms.ImageList(this.components);
             this.imageListRightSlot = new System.Windows.Forms.ImageList(this.components);
-            this.timerLeftSlot = new System.Windows.Forms.Timer(this.components);
-            this.timerMiddleSlot = new System.Windows.Forms.Timer(this.components);
-            this.timerRightSlot = new System.Windows.Forms.Timer(this.components);
+            this.TimerLeftSlot = new System.Windows.Forms.Timer(this.components);
+            this.TimerMiddleSlot = new System.Windows.Forms.Timer(this.components);
+            this.TimerRightSlot = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMiddleSlot)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRightSlot)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLeftSlot)).BeginInit();
@@ -98,20 +98,20 @@
             this.imageListRightSlot.Images.SetKeyName(3, "Star.jpg");
             this.imageListRightSlot.Images.SetKeyName(4, "Strawberry.jpg");
             // 
-            // timerLeftSlot
+            // TimerLeftSlot
             // 
-            this.timerLeftSlot.Enabled = true;
-            this.timerLeftSlot.Tick += new System.EventHandler(this.timerLeftSlot_Tick);
+            this.TimerLeftSlot.Enabled = true;
+            this.TimerLeftSlot.Tick += new System.EventHandler(this.timerLeftSlot_Tick);
             // 
-            // timerMiddleSlot
+            // TimerMiddleSlot
             // 
-            this.timerMiddleSlot.Enabled = true;
-            this.timerMiddleSlot.Tick += new System.EventHandler(this.timerMiddleSlot_Tick);
+            this.TimerMiddleSlot.Enabled = true;
+            this.TimerMiddleSlot.Tick += new System.EventHandler(this.timerMiddleSlot_Tick);
             // 
-            // timerRightSlot
+            // TimerRightSlot
             // 
-            this.timerRightSlot.Enabled = true;
-            this.timerRightSlot.Tick += new System.EventHandler(this.timerRightSlot_Tick);
+            this.TimerRightSlot.Enabled = true;
+            this.TimerRightSlot.Tick += new System.EventHandler(this.timerRightSlot_Tick);
             // 
             // Slots
             // 
@@ -124,6 +124,7 @@
             this.Controls.Add(this.pictureBoxMiddleSlot);
             this.Name = "Slots";
             this.Text = "Slots";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Slots_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMiddleSlot)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRightSlot)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLeftSlot)).EndInit();
@@ -139,8 +140,8 @@
         private System.Windows.Forms.ImageList imageListLeftSlot;
         private System.Windows.Forms.ImageList imageListMiddleSlot;
         private System.Windows.Forms.ImageList imageListRightSlot;
-        private System.Windows.Forms.Timer timerLeftSlot;
-        private System.Windows.Forms.Timer timerMiddleSlot;
-        private System.Windows.Forms.Timer timerRightSlot;
+        private System.Windows.Forms.Timer TimerLeftSlot;
+        private System.Windows.Forms.Timer TimerMiddleSlot;
+        private System.Windows.Forms.Timer TimerRightSlot;
     }
 }
